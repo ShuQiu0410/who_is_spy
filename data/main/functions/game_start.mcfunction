@@ -3,3 +3,5 @@ execute if score player_count player_count matches 7..9 run scoreboard players a
 execute if score player_count player_count matches 10 run scoreboard players add @a[limet=3] spy 1
 #spy 1表示為臥底
 function main:the_word
+scoreboard players set timer timer 180
+#180可自行改成遊戲進行時間
